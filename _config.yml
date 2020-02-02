@@ -1,5 +1,5 @@
 # Site settings
-title: DevOps - Retail IT
+title: CD2 Serviços em Tecnologia
 email: suporte@cd2.com.br
 url: https://www.cd2.com.br
 description: "Ajudamos pessoas e empresas a transformar ideias e projetos em resultados, oferecendo soluções em consultoria, desenvolvimento e implantação de softwares sob demanda."
@@ -26,7 +26,7 @@ contact: static
 color:
   primary: 19458C #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 18bc9c #FD6E8A
+  secondary: 8C620B #FD6E8A
   secondary-dark: 233140 #A2122F
 
 # Footer settings
