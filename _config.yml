@@ -3,7 +3,7 @@ title: CD2
 email: suporte@cd2.com.br
 url: https://www.cd2.com.br
 description: "Ajudamos pessoas e empresas a transformar ideias e projetos em resultados, oferecendo soluções em consultoria, desenvolvimento e implantação de softwares sob demanda."
-skills: "IT Services- Linux Developer - Software Developer"
+skills: "Gestão - Desenvolvimento - Consultoria - Suporte"
 meta_author: CD2 Serviços em Tecnologia da Informação
 
 # Google webmaster tools
@@ -24,9 +24,9 @@ contact: static
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
+  primary: 19458C #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 19458C #FD6E8A
+  secondary: 18bc9c #FD6E8A
   secondary-dark: 233140 #A2122F
 
 # Footer settings
