@@ -33,7 +33,7 @@ color:
 footer:
   copyright: CD2 Serviços em Tecnologia da Informação Ltda
   location: Florianópolis
-  social: https://www.cd2.com.br
+  social: www.cd2.com.br
   credits: CD2
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -55,7 +55,7 @@ address:
   - line: Florianópolis - SC - CEP:88040-310
 
 # Credits content
-credits: 'IT Services- Linux Developer - Software Developer'
+credits: 'Serviços em Tecnologia da Informação'
 
 # Build settings
 markdown: kramdown
