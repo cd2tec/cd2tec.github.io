@@ -256,7 +256,7 @@
         <div class="page">
             <span class="cd2-section__eyebrow">CD2 para devs</span>
             <h1>Ferramentas abertas para quem constrói o <em>varejo.</em></h1>
-            <p class="lead">A gente passa o dia dentro de ERPs, PDVs, bancos legados e integrações que não podem cair. Parte das ferramentas que nascem nesse trabalho fica aberta aqui, com licença MIT, para você instalar, ler o código e contribuir.</p>
+            <p class="lead">A gente passa o dia dentro de ERPs, PDVs, bancos legados e integrações que não podem cair. Parte das ferramentas que nascem nesse trabalho fica aberta aqui, com licença aberta, para você instalar, ler o código e contribuir.</p>
             <div class="actions">
                 <a class="cd2-btn cd2-btn--primary" href="#projetos">Ver projetos <span class="cd2-btn__arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:12px;height:12px"><use href="#i-arrow"/></svg></span></a>
                 <a class="cd2-btn cd2-btn--secondary" href="https://github.com/cd2tec" target="_blank" rel="noopener">
@@ -265,7 +265,7 @@
                 </a>
             </div>
             <div class="hero-strip" aria-label="Tecnologias dos projetos">
-                <span class="pill-mono">Claude Code</span>
+                <span class="pill-mono">Claude Code · Codex</span>
                 <span class="pill-mono">MCP</span>
                 <span class="pill-mono">SQL Server · Oracle · PostgreSQL</span>
                 <span class="pill-mono">Node.js</span>
@@ -283,24 +283,24 @@
 
             <article class="project">
                 <div>
-                    <span class="project__kicker">Plugin para Claude Code</span>
-                    <h3><span>cd2tec/</span>archeo-claude-plugins</h3>
-                    <p>Plugins para o <strong>Archeo MCP Creator</strong>, que conecta bancos de dados legados a assistentes de IA. Do banco legado ao painel executivo e às ferramentas de IA, com cada número conferido no seu banco.</p>
+                    <span class="project__kicker">Plugin para Claude Code, Cowork, Codex e ChatGPT Work</span>
+                    <h3><span>cd2tec/</span>archeo-harness-plugins</h3>
+                    <p>Plugins para o <strong>Archeo MCP Creator</strong>, que conecta bancos de dados legados a assistentes de IA. As mesmas skills, empacotadas para mais de um harness de agente, do banco legado ao painel executivo, com cada número conferido no seu banco.</p>
                     <ul class="features">
-                        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-db"/></svg><span><b>add-mcp-tool</b>: transforma uma pergunta de negócio em uma ferramenta MCP. Explora o banco, escreve e testa o SQL e devolve a especificação pronta para o formulário.</span></li>
-                        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-chart"/></svg><span><b>add-mcp-dashboard</b>: painel executivo de varejo a partir do ERP ou PDV, com KPIs, índice de saúde, rankings e curva ABC.</span></li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-db"/></svg><span><b>spec-mcp-tool</b>: transforma uma pergunta de negócio em uma ficha de ferramenta MCP. Explora o banco, escreve e testa o SQL e devolve a especificação pronta para o formulário.</span></li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-chart"/></svg><span><b>build-mcp-dashboard</b>: painel executivo de varejo a partir do ERP ou PDV, com KPIs, índice de saúde, rankings e curva ABC.</span></li>
                         <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-doc"/></svg><span><b>analyze-mcp-*</b>: relatórios de estoque, vendas, compras, preços, perdas, fiscal, contábil e financeiro, cada um com conferência de reconciliação.</span></li>
                         <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-lock"/></svg><span>Só leitura: cada ferramenta é um <code>SELECT</code> fixo, parametrizado e validado pelo servidor. Nada é registrado automaticamente.</span></li>
                     </ul>
                     <div class="chips">
-                        <span class="cd2-tag cd2-tag--brand">MIT</span>
+                        <span class="cd2-tag cd2-tag--brand">Apache 2.0</span>
                         <span class="cd2-tag">SQL Server</span>
                         <span class="cd2-tag">PostgreSQL</span>
-                        <span class="cd2-tag">Oracle</span>
                         <span class="cd2-tag">MySQL / MariaDB</span>
+                        <span class="cd2-tag">Oracle</span>
                     </div>
                     <div class="actions">
-                        <a class="cd2-btn cd2-btn--primary" href="https://github.com/cd2tec/archeo-claude-plugins" target="_blank" rel="noopener">
+                        <a class="cd2-btn cd2-btn--primary" href="https://github.com/cd2tec/archeo-harness-plugins" target="_blank" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-github"/></svg>
                             Ver repositório
                         </a>
@@ -309,11 +309,15 @@
                 <div class="terminal">
                     <div class="terminal__bar">
                         <span>Claude Code</span>
-                        <button class="copy" type="button" data-copy="/plugin marketplace add cd2tec/archeo-claude-plugins&#10;/plugin install archeo@archeo-plugins"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-copy"/></svg><span>Copiar</span></button>
+                        <button class="copy" type="button" data-copy="/plugin marketplace add cd2tec/archeo-harness-plugins&#10;/plugin install archeo@archeo-harness"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-copy"/></svg><span>Copiar</span></button>
                     </div>
-<pre><span class="c"># adicione o marketplace e instale</span>
-<span class="p">&gt;</span> /plugin marketplace add cd2tec/archeo-claude-plugins
-<span class="p">&gt;</span> /plugin install archeo@archeo-plugins
+<pre><span class="c"># Claude Code: adicione o marketplace e instale</span>
+<span class="p">&gt;</span> /plugin marketplace add cd2tec/archeo-harness-plugins
+<span class="p">&gt;</span> /plugin install archeo@archeo-harness
+
+<span class="c"># Codex</span>
+<span class="p">$</span> codex plugin marketplace add cd2tec/archeo-harness-plugins
+<span class="p">$</span> codex plugin add archeo@archeo-harness
 
 <span class="c"># depois, é só pedir em linguagem natural</span>
 <span class="p">&gt;</span> Crie uma ferramenta que mostre a ruptura
@@ -323,7 +327,8 @@
 <span class="ok">✓ especificação pronta para o MCP Creator</span>
 
 <span class="c"># requer um conector Archeo ativo com as</span>
-<span class="c"># ferramentas db_* de leitura</span></pre>
+<span class="c"># ferramentas db_* de leitura. Cowork e ChatGPT</span>
+<span class="c"># Work: instalação pelo painel, veja o README</span></pre>
                 </div>
             </article>
 
@@ -381,33 +386,13 @@
             <div class="cd2-section">
                 <span class="cd2-section__eyebrow">Mais código aberto</span>
                 <h2 class="cd2-section__title">Outros repositórios públicos da <em>CD2.</em></h2>
-                <p class="cd2-section__lead">Integrações reais, desafios técnicos dos nossos processos seletivos e experimentos.</p>
+                <p class="cd2-section__lead">Tudo o que está público na organização, atualizado direto do GitHub: quando um repositório novo é aberto, ele aparece aqui sozinho.</p>
             </div>
-            <div class="blocks">
-                <a class="cd2-block cd2-block--raised cd2-block--notch-tr" href="https://github.com/cd2tec/cd2-integrador-c5-invent-banco-a-banco" target="_blank" rel="noopener">
-                    <span class="cd2-block__kicker">Integração · PL/SQL</span>
-                    <h3 class="cd2-block__title">cd2-integrador-c5-invent-banco-a-banco</h3>
-                    <p class="cd2-block__text">Integrador Oracle Consinco e Invent: DDL, jobs e documentação, banco a banco.</p>
-                </a>
-                <a class="cd2-block cd2-block--raised cd2-block--notch-bl" href="https://github.com/cd2tec/JavaTest" target="_blank" rel="noopener">
-                    <span class="cd2-block__kicker">Desafio técnico · Java</span>
-                    <h3 class="cd2-block__title">JavaTest</h3>
-                    <p class="cd2-block__text">O teste de seleção para vagas Java na CD2. Faça o fork e mostre como você resolve.</p>
-                </a>
-                <a class="cd2-block cd2-block--raised cd2-block--notch-tr" href="https://github.com/cd2tec/PHPtest" target="_blank" rel="noopener">
-                    <span class="cd2-block__kicker">Desafio técnico · PHP</span>
-                    <h3 class="cd2-block__title">PHPtest</h3>
-                    <p class="cd2-block__text">O teste de seleção para vagas PHP na CD2, aberto para quem quiser praticar.</p>
-                </a>
-                <a class="cd2-block cd2-block--raised cd2-block--notch-bl" href="https://github.com/cd2tec/solucao-satelite" target="_blank" rel="noopener">
-                    <span class="cd2-block__kicker">Experimento</span>
-                    <h3 class="cd2-block__title">solucao-satelite</h3>
-                    <p class="cd2-block__text">Cálculos de parâmetros orbitais de satélites.</p>
-                </a>
-                <a class="cd2-block cd2-block--brand cd2-block--notch-tr" href="https://github.com/cd2tec?type=public" target="_blank" rel="noopener" style="grid-column: span 2">
+            <div class="blocks" id="repo-grid" aria-live="polite">
+                <a class="cd2-block cd2-block--brand cd2-block--notch-tr" id="repo-org" href="https://github.com/cd2tec?type=public" target="_blank" rel="noopener" style="grid-column: span 2">
                     <span class="cd2-block__kicker">Organização no GitHub</span>
                     <h3 class="cd2-block__title">Veja tudo em github.com/cd2tec.</h3>
-                    <p class="cd2-block__text">Acompanhe a organização para saber quando um projeto novo for aberto.</p>
+                    <p class="cd2-block__text" id="repo-status">Carregando a lista de repositórios públicos…</p>
                 </a>
             </div>
         </div>
@@ -470,7 +455,7 @@
                 <div>
                     <div class="n">02</div>
                     <h4>Faça o fork</h4>
-                    <p>Todos os projetos em destaque são MIT. Leia o README, crie um branch e mande a mudança.</p>
+                    <p>Os projetos em destaque têm licença aberta (Apache 2.0 e MIT). Leia o README, crie um branch e mande a mudança.</p>
                 </div>
                 <div>
                     <div class="n">03</div>
@@ -517,6 +502,67 @@
             }, function () {});
         });
     });
+
+    // Outros repositórios: lista dinâmica dos repositórios públicos da organização.
+    (function () {
+        var ORG = 'cd2tec';
+        // Já aparecem em destaque (ou não fazem sentido na lista).
+        var EXCLUDE = ['archeo-harness-plugins', 'wrapper-code', ORG + '.github.io', '.github'];
+        var MAX = 11;
+        var LANG = { 'PLSQL': 'PL/SQL', 'TSQL': 'T-SQL' };
+        var grid = document.getElementById('repo-grid');
+        var org = document.getElementById('repo-org');
+        var status = document.getElementById('repo-status');
+        var CACHE_KEY = 'cd2-repos-v1', TTL = 10 * 60 * 1000;
+
+        function card(repo, i) {
+            var a = document.createElement('a');
+            a.className = 'cd2-block cd2-block--raised ' + (i % 2 === 0 ? 'cd2-block--notch-tr' : 'cd2-block--notch-bl');
+            a.href = repo.html_url;
+            a.target = '_blank';
+            a.rel = 'noopener';
+            var k = document.createElement('span');
+            k.className = 'cd2-block__kicker';
+            k.textContent = repo.language ? (LANG[repo.language] || repo.language) : 'Repositório';
+            var t = document.createElement('h3');
+            t.className = 'cd2-block__title';
+            t.textContent = repo.name;
+            var d = document.createElement('p');
+            d.className = 'cd2-block__text';
+            d.textContent = repo.description || 'Repositório público da CD2 Tech.';
+            a.appendChild(k); a.appendChild(t); a.appendChild(d);
+            return a;
+        }
+
+        function render(repos) {
+            var list = repos.filter(function (r) {
+                return !r.private && !r.fork && !r.archived && !r.disabled && EXCLUDE.indexOf(r.name) === -1;
+            }).sort(function (a, b) {
+                return new Date(b.pushed_at) - new Date(a.pushed_at);
+            }).slice(0, MAX);
+            list.forEach(function (r, i) { grid.insertBefore(card(r, i), org); });
+            status.textContent = list.length
+                ? 'Acompanhe a organização para saber quando um projeto novo for aberto.'
+                : 'Nenhum outro repositório público no momento. Acompanhe a organização para saber quando um projeto novo for aberto.';
+        }
+
+        function fail() {
+            status.textContent = 'Não foi possível carregar a lista agora. Veja todos os repositórios públicos direto no GitHub.';
+        }
+
+        try {
+            var cached = JSON.parse(sessionStorage.getItem(CACHE_KEY) || 'null');
+            if (cached && Date.now() - cached.t < TTL) { render(cached.d); return; }
+        } catch (e) {}
+
+        fetch('https://api.github.com/orgs/' + ORG + '/repos?type=public&sort=pushed&per_page=100', { headers: { 'Accept': 'application/vnd.github+json' } })
+            .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+            .then(function (data) {
+                try { sessionStorage.setItem(CACHE_KEY, JSON.stringify({ t: Date.now(), d: data })); } catch (e) {}
+                render(data);
+            })
+            .catch(fail);
+    })();
 </script>
 </body>
 </html>

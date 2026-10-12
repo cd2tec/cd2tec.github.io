@@ -6,8 +6,12 @@ Publicada em https://cd2tec.github.io pelo GitHub Pages, a partir da raiz do bra
 
 ## Projetos em destaque
 
-- [cd2tec/archeo-claude-plugins](https://github.com/cd2tec/archeo-claude-plugins): plugins para Claude Code que conectam bancos legados de varejo a assistentes de IA via Archeo MCP Creator.
+- [cd2tec/archeo-harness-plugins](https://github.com/cd2tec/archeo-harness-plugins): plugins que conectam bancos legados de varejo a assistentes de IA via Archeo MCP Creator, para Claude Code, Claude Cowork, Codex e ChatGPT Work.
 - [nayamonia/wrapper-code](https://github.com/nayamonia/wrapper-code): CLI para rodar o Claude Code com outros provedores de LLM, criada por Gabriel Fernandes, fundador da CD2.
+
+## Outros repositórios (dinâmico)
+
+A seção "Outros repositórios públicos" não tem lista fixa. O navegador consulta a API pública do GitHub (`/orgs/cd2tec/repos?type=public`) e monta os cards, ordenados pelo último push. Ficam de fora forks, repositórios arquivados, o próprio `cd2tec.github.io` e os projetos em destaque (constante `EXCLUDE` no script do `index.html`). Repositório novo que se torna público aparece sozinho; o que volta a ser privado some. O resultado fica em cache por 10 minutos no `sessionStorage`, por causa do limite de requisições sem autenticação da API.
 
 ## Estrutura
 
