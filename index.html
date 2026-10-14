@@ -7,6 +7,9 @@
     <meta name="description" content="Projetos open source da CD2 Tech para quem desenvolve no varejo: plugins de IA para bancos legados, ferramentas para Claude Code e integrações.">
     <meta name="author" content="CD2 Tech">
     <link rel="canonical" href="https://cd2tec.github.io/">
+    <link rel="alternate" hreflang="pt-BR" href="https://cd2tec.github.io/">
+    <link rel="alternate" hreflang="en" href="https://cd2tec.github.io/en/">
+    <link rel="alternate" hreflang="x-default" href="https://cd2tec.github.io/">
     <meta property="og:title" content="CD2 para devs">
     <meta property="og:description" content="Ferramentas abertas para quem constrói sistemas críticos do varejo.">
     <meta property="og:type" content="website">
@@ -93,6 +96,8 @@
         .topbar nav { display: flex; align-items: center; gap: var(--space-6); }
         .topbar nav a.link { color: var(--ink); text-decoration: none; font-weight: 600; font-size: 14px; transition: color .15s; }
         .topbar nav a.link:hover { color: var(--ink-brand); }
+        .topbar nav a.lang { display: inline-flex; align-items: center; height: 32px; padding: 0 var(--space-3); border-radius: var(--radius-pill); border: 1px solid var(--border-strong); color: var(--ink); text-decoration: none; font: 700 12px/16px var(--font-sans); letter-spacing: 1px; transition: background-color .15s, color .15s; }
+        .topbar nav a.lang:hover { background: var(--surface-raised); color: var(--ink-brand); }
 
         /* Botões (componente Button) */
         .cd2-btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2); height: 44px; padding: 0 var(--space-6); border-radius: var(--radius-pill); border: 2px solid transparent; font: 700 13px/16px var(--font-sans); cursor: pointer; text-decoration: none; transition: background-color .15s, color .15s, border-color .15s; white-space: nowrap; }
@@ -249,6 +254,7 @@
             <a class="link" href="#projetos">Projetos</a>
             <a class="link" href="#repositorios">Repositórios</a>
             <a class="link" href="#contribuir">Contribuir</a>
+            <a class="lang" href="en/" hreflang="en" lang="en" title="Read in English">EN</a>
             <a class="cd2-btn cd2-btn--primary cd2-btn--sm" href="https://github.com/cd2tec" target="_blank" rel="noopener">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-github"/></svg>
                 GitHub
