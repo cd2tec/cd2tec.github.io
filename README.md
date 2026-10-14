@@ -7,6 +7,7 @@ Publicada em https://cd2tec.github.io pelo GitHub Pages, a partir da raiz do bra
 ## Projetos em destaque
 
 - [cd2tec/archeo-harness-plugins](https://github.com/cd2tec/archeo-harness-plugins): plugins que conectam bancos legados de varejo a assistentes de IA via Archeo MCP Creator, para Claude Code, Claude Cowork, Codex e ChatGPT Work.
+- [cd2tec/cd2-harness-pocket](https://github.com/cd2tec/cd2-harness-pocket): a IA da CD2 rodando 100% no seu computador, direto do pen drive, com conexão somente leitura ao seu banco. [Site do projeto](https://cd2tec.github.io/cd2-harness-pocket/).
 - [nayamonia/wrapper-code](https://github.com/nayamonia/wrapper-code): CLI para rodar o Claude Code com outros provedores de LLM, criada por Gabriel Fernandes, fundador da CD2.
 
 ## Outros repositórios (dinâmico)
