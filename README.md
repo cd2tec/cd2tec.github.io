@@ -17,6 +17,7 @@ A seção "Outros repositórios públicos" não tem lista fixa. O navegador cons
 ## Estrutura
 
 - `index.html`: página única, HTML e CSS puros, sem build.
+- `en/index.html`: versão em inglês da mesma página (https://cd2tec.github.io/en/). O seletor PT / EN no topo liga as duas; ao mudar o texto de uma, atualize a outra.
 - `assets/`: logo oficial (cor e negativa) e favicon com o símbolo da marca.
 - `.nojekyll`: publica os arquivos como estão, sem processar com Jekyll.
 
