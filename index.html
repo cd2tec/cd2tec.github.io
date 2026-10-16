@@ -347,9 +347,9 @@
 
             <article class="project">
                 <div>
-                    <span class="project__kicker">IA local no pen drive</span>
-                    <h3><span>cd2tec/</span>cd2-harness-pocket</h3>
-                    <p>A IA da CD2 rodando <strong>100% no seu computador, direto do pen drive</strong>. Plugou, clicou, conversou: um modelo Qwen3 4B local, sem instalar nada e sem mandar dados para a nuvem.</p>
+                    <span class="project__kicker">CD2 IA de Bolso · IA local no pen drive</span>
+                    <h3><span>cd2tec/</span>cd2-ia-de-bolso</h3>
+                    <p>A <strong>CD2 IA de Bolso</strong> roda <strong>100% no seu computador, direto do pen drive</strong>. Plugou, clicou, conversou: um modelo Qwen3 4B local, sem instalar nada e sem mandar dados para a nuvem.</p>
                     <ul class="features">
                         <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-usb"/></svg><span><b>Pen drive pronto</b>: o gravador formata, baixa o llamafile e o modelo, confere os checksums e ejeta. Depois de gravado, não precisa de internet.</span></li>
                         <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-db"/></svg><span><b>Conecta ao seu banco</b>: PostgreSQL, Oracle, MariaDB/MySQL e SQL Server pelo MCP Toolbox, com sete ferramentas <code>db_*</code> somente leitura.</span></li>
@@ -363,21 +363,21 @@
                         <span class="cd2-tag">Experimental</span>
                     </div>
                     <div class="actions">
-                        <a class="cd2-btn cd2-btn--primary" href="https://github.com/cd2tec/cd2-harness-pocket" target="_blank" rel="noopener">
+                        <a class="cd2-btn cd2-btn--primary" href="https://github.com/cd2tec/cd2-ia-de-bolso" target="_blank" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-github"/></svg>
                             Ver repositório
                         </a>
-                        <a class="cd2-btn cd2-btn--secondary" href="https://cd2tec.github.io/cd2-harness-pocket/" target="_blank" rel="noopener">Site do projeto</a>
+                        <a class="cd2-btn cd2-btn--secondary" href="https://cd2tec.github.io/cd2-ia-de-bolso/" target="_blank" rel="noopener">Site do projeto</a>
                     </div>
                 </div>
                 <div class="terminal">
                     <div class="terminal__bar">
                         <span>Terminal</span>
-                        <button class="copy" type="button" data-copy="git clone https://github.com/cd2tec/cd2-harness-pocket&#10;cd cd2-harness-pocket&#10;sh gravar-pendrive-linux.sh"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-copy"/></svg><span>Copiar</span></button>
+                        <button class="copy" type="button" data-copy="git clone https://github.com/cd2tec/cd2-ia-de-bolso&#10;cd cd2-ia-de-bolso&#10;sh gravar-pendrive-linux.sh"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-copy"/></svg><span>Copiar</span></button>
                     </div>
 <pre><span class="c"># baixe e grave o pen drive (uma vez, com internet)</span>
-<span class="p">$</span> git clone https://github.com/cd2tec/cd2-harness-pocket
-<span class="p">$</span> cd cd2-harness-pocket
+<span class="p">$</span> git clone https://github.com/cd2tec/cd2-ia-de-bolso
+<span class="p">$</span> cd cd2-ia-de-bolso
 <span class="p">$</span> sh gravar-pendrive-linux.sh
 
 <span class="c"># depois, sem internet: plugue e abra</span>
@@ -569,7 +569,7 @@
     (function () {
         var ORG = 'cd2tec';
         // Já aparecem em destaque (ou não fazem sentido na lista).
-        var EXCLUDE = ['archeo-harness-plugins', 'cd2-harness-pocket', 'wrapper-code', ORG + '.github.io', '.github'];
+        var EXCLUDE = ['archeo-harness-plugins', 'cd2-ia-de-bolso', 'wrapper-code', ORG + '.github.io', '.github'];
         var MAX = 11;
         var LANG = { 'PLSQL': 'PL/SQL', 'TSQL': 'T-SQL' };
         var grid = document.getElementById('repo-grid');
