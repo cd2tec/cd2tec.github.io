@@ -243,6 +243,7 @@
         <g id="i-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></g>
         <g id="i-instagram"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></g>
         <g id="i-whatsapp"><path d="M3 21l1.6-4.7A8.5 8.5 0 1 1 8 19.6z"/><path d="M9 10c0 2.8 2.2 5 5 5l1-1.5-2-1-1 1c-.8-.3-1.7-1.2-2-2l1-1-1-2z"/></g>
+        <g id="i-clock"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g>
         <g id="i-users"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-3.9 3.1-7 7-7s7 3.1 7 7M16 4a4 4 0 0 1 0 8M22 21c0-3.2-2-5.9-5-6.7"/></g>
     </defs>
 </svg>
@@ -291,7 +292,7 @@
             <div class="cd2-section">
                 <span class="cd2-section__eyebrow">Projetos em destaque</span>
                 <h2 class="cd2-section__title">Do banco legado ao <em>agente de IA.</em></h2>
-                <p class="cd2-section__lead">Três projetos que usamos de verdade no dia a dia. Instale em um minuto e leia o código no GitHub.</p>
+                <p class="cd2-section__lead">Quatro projetos abertos, do banco legado à escala da loja. Instale em um minuto e leia o código no GitHub.</p>
             </div>
 
             <article class="project">
@@ -388,6 +389,55 @@
 
 <span class="c"># no Windows e no Mac é duplo clique em</span>
 <span class="c"># GRAVAR-PENDRIVE e INICIAR-CD2</span></pre>
+                </div>
+            </article>
+
+            <article class="project">
+                <div>
+                    <span class="project__kicker">Calculadora web · fim da escala 6x1</span>
+                    <h3><span>cd2tec/</span>cd2-calc-fim-escala-6x1</h3>
+                    <p>O fim da escala 6x1 chega às lojas em <strong>16/12/2026</strong>. A calculadora mostra, em menos de 5 minutos, de graça e sem cadastro, onde a escala vai apertar, quantas pessoas a mais a loja pode precisar e quanto isso custa.</p>
+                    <ul class="features">
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-clock"/></svg><span><b>Veredito por setor</b>: horas que somem por semana em vermelho, amarelo e verde, sem acordo coletivo (40h em 16/12/2026) e com acordo (42h até 16/12/2027).</span></li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-chart"/></svg><span><b>Faixa de contratação e custo</b>: do cenário mais enxuto a uma contratação por setor, com a lista do que fazer em ordem de prioridade.</span></li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-doc"/></svg><span><b>Regra fora do motor</b>: parâmetros legais em <code>core/legal-params.json</code>, premissas em <code>core/assumptions.json</code>. Cada número mostra na tela de onde veio.</span></li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-lock"/></svg><span><b>Sem servidor</b>: tudo roda no navegador, sem login e sem contador de uso. O último preenchimento fica só no aparelho.</span></li>
+                    </ul>
+                    <div class="chips">
+                        <span class="cd2-tag cd2-tag--brand">MIT</span>
+                        <span class="cd2-tag">React</span>
+                        <span class="cd2-tag">Node.js 20+</span>
+                        <span class="cd2-tag">Playwright</span>
+                        <span class="cd2-tag">Varejo alimentar</span>
+                    </div>
+                    <div class="actions">
+                        <a class="cd2-btn cd2-btn--primary" href="https://github.com/cd2tec/cd2-calc-fim-escala-6x1" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-github"/></svg>
+                            Ver repositório
+                        </a>
+                        <a class="cd2-btn cd2-btn--secondary" href="https://calc-fim-escala6x1.cd2.com.br" target="_blank" rel="noopener">Abrir a calculadora</a>
+                    </div>
+                </div>
+                <div class="terminal">
+                    <div class="terminal__bar">
+                        <span>Terminal</span>
+                        <button class="copy" type="button" data-copy="git clone https://github.com/cd2tec/cd2-calc-fim-escala-6x1&#10;cd cd2-calc-fim-escala-6x1&#10;npm install&#10;npm run dev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-copy"/></svg><span>Copiar</span></button>
+                    </div>
+<pre><span class="c"># rode localmente (Node 20+)</span>
+<span class="p">$</span> git clone https://github.com/cd2tec/cd2-calc-fim-escala-6x1
+<span class="p">$</span> cd cd2-calc-fim-escala-6x1
+<span class="p">$</span> npm install
+<span class="p">$</span> npm run dev
+
+<span class="c"># testes do motor e de tela no celular</span>
+<span class="p">$</span> npm test
+<span class="p">$</span> npm run e2e
+
+<span class="ok">✓ motor em core/, sem dependências</span>
+<span class="ok">✓ nada sai do navegador</span>
+
+<span class="c"># estimativa gerencial, não parecer jurídico:</span>
+<span class="c"># confirme com contador e sindicato</span></pre>
                 </div>
             </article>
 
@@ -569,7 +619,7 @@
     (function () {
         var ORG = 'cd2tec';
         // Já aparecem em destaque (ou não fazem sentido na lista).
-        var EXCLUDE = ['archeo-harness-plugins', 'cd2-ia-de-bolso', 'wrapper-code', ORG + '.github.io', '.github'];
+        var EXCLUDE = ['archeo-harness-plugins', 'cd2-ia-de-bolso', 'wrapper-code', 'cd2-calc-fim-escala-6x1', ORG + '.github.io', '.github'];
         var MAX = 11;
         var LANG = { 'PLSQL': 'PL/SQL', 'TSQL': 'T-SQL' };
         var grid = document.getElementById('repo-grid');

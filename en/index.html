@@ -243,6 +243,7 @@
         <g id="i-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></g>
         <g id="i-instagram"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></g>
         <g id="i-whatsapp"><path d="M3 21l1.6-4.7A8.5 8.5 0 1 1 8 19.6z"/><path d="M9 10c0 2.8 2.2 5 5 5l1-1.5-2-1-1 1c-.8-.3-1.7-1.2-2-2l1-1-1-2z"/></g>
+        <g id="i-clock"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g>
         <g id="i-users"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-3.9 3.1-7 7-7s7 3.1 7 7M16 4a4 4 0 0 1 0 8M22 21c0-3.2-2-5.9-5-6.7"/></g>
     </defs>
 </svg>
@@ -291,7 +292,7 @@
             <div class="cd2-section">
                 <span class="cd2-section__eyebrow">Featured projects</span>
                 <h2 class="cd2-section__title">From legacy database to <em>AI agent.</em></h2>
-                <p class="cd2-section__lead">Three projects we actually use every day. Install them in a minute and read the code on GitHub.</p>
+                <p class="cd2-section__lead">Four open projects, from the legacy database to the store's staff schedule. Install them in a minute and read the code on GitHub.</p>
             </div>
 
             <article class="project">
@@ -388,6 +389,55 @@
 
 <span class="c"># on Windows and Mac, double-click</span>
 <span class="c"># GRAVAR-PENDRIVE and INICIAR-CD2</span></pre>
+                </div>
+            </article>
+
+            <article class="project">
+                <div>
+                    <span class="project__kicker">Web calculator · end of the 6x1 schedule</span>
+                    <h3><span>cd2tec/</span>cd2-calc-fim-escala-6x1</h3>
+                    <p>Brazil's 6-on/1-off work schedule ends for retail on <strong>Dec 16, 2026</strong>. In under 5 minutes, free and without sign-up, the calculator shows where the schedule will pinch, how many more people a store may need and what it will cost.</p>
+                    <ul class="features">
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-clock"/></svg><span><b>Verdict per department</b>: weekly hours lost, in red, yellow and green, without a collective agreement (40h on Dec 16, 2026) and with one (42h until Dec 16, 2027).</span></li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-chart"/></svg><span><b>Hiring and cost range</b>: from the leanest scenario to one hire per department, plus a to-do list in priority order.</span></li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-doc"/></svg><span><b>Rules outside the engine</b>: legal parameters in <code>core/legal-params.json</code>, assumptions in <code>core/assumptions.json</code>. Every number shows on screen where it came from.</span></li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-lock"/></svg><span><b>No server</b>: everything runs in the browser, no login and no usage tracking. The last entry stays on the device only.</span></li>
+                    </ul>
+                    <div class="chips">
+                        <span class="cd2-tag cd2-tag--brand">MIT</span>
+                        <span class="cd2-tag">React</span>
+                        <span class="cd2-tag">Node.js 20+</span>
+                        <span class="cd2-tag">Playwright</span>
+                        <span class="cd2-tag">Interface in Portuguese</span>
+                    </div>
+                    <div class="actions">
+                        <a class="cd2-btn cd2-btn--primary" href="https://github.com/cd2tec/cd2-calc-fim-escala-6x1" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-github"/></svg>
+                            View repository
+                        </a>
+                        <a class="cd2-btn cd2-btn--secondary" href="https://calc-fim-escala6x1.cd2.com.br" target="_blank" rel="noopener">Open the calculator</a>
+                    </div>
+                </div>
+                <div class="terminal">
+                    <div class="terminal__bar">
+                        <span>Terminal</span>
+                        <button class="copy" type="button" data-copy="git clone https://github.com/cd2tec/cd2-calc-fim-escala-6x1&#10;cd cd2-calc-fim-escala-6x1&#10;npm install&#10;npm run dev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-copy"/></svg><span>Copy</span></button>
+                    </div>
+<pre><span class="c"># run it locally (Node 20+)</span>
+<span class="p">$</span> git clone https://github.com/cd2tec/cd2-calc-fim-escala-6x1
+<span class="p">$</span> cd cd2-calc-fim-escala-6x1
+<span class="p">$</span> npm install
+<span class="p">$</span> npm run dev
+
+<span class="c"># engine tests and mobile-size UI tests</span>
+<span class="p">$</span> npm test
+<span class="p">$</span> npm run e2e
+
+<span class="ok">✓ engine in core/, zero dependencies</span>
+<span class="ok">✓ nothing leaves the browser</span>
+
+<span class="c"># a management estimate, not legal advice:</span>
+<span class="c"># check with your accountant and union</span></pre>
                 </div>
             </article>
 
@@ -569,7 +619,7 @@
     (function () {
         var ORG = 'cd2tec';
         // Already featured (or not meaningful in the list).
-        var EXCLUDE = ['archeo-harness-plugins', 'cd2-ia-de-bolso', 'wrapper-code', ORG + '.github.io', '.github'];
+        var EXCLUDE = ['archeo-harness-plugins', 'cd2-ia-de-bolso', 'wrapper-code', 'cd2-calc-fim-escala-6x1', ORG + '.github.io', '.github'];
         var MAX = 11;
         var LANG = { 'PLSQL': 'PL/SQL', 'TSQL': 'T-SQL' };
         var grid = document.getElementById('repo-grid');

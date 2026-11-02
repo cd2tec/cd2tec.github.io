@@ -8,6 +8,7 @@ Publicada em https://cd2tec.github.io pelo GitHub Pages, a partir da raiz do bra
 
 - [cd2tec/archeo-harness-plugins](https://github.com/cd2tec/archeo-harness-plugins): plugins que conectam bancos legados de varejo a assistentes de IA via Archeo MCP Creator, para Claude Code, Claude Cowork, Codex e ChatGPT Work.
 - [cd2tec/cd2-ia-de-bolso](https://github.com/cd2tec/cd2-ia-de-bolso): CD2 IA de Bolso, a IA da CD2 rodando 100% no seu computador, direto do pen drive, com conexão somente leitura ao seu banco. [Site do projeto](https://cd2tec.github.io/cd2-ia-de-bolso/).
+- [cd2tec/cd2-calc-fim-escala-6x1](https://github.com/cd2tec/cd2-calc-fim-escala-6x1): calculadora gratuita do impacto do fim da escala 6x1 no varejo, com horas perdidas por setor, faixa de contratação e custo, rodando 100% no navegador. [Acesse a calculadora](https://calc-fim-escala6x1.cd2.com.br).
 - [nayamonia/wrapper-code](https://github.com/nayamonia/wrapper-code): CLI para rodar o Claude Code com outros provedores de LLM, criada por Gabriel Fernandes, fundador da CD2.
 
 ## Outros repositórios (dinâmico)
